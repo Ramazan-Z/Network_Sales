@@ -1,7 +1,7 @@
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
-from django.urls import path
+from django.urls import include, path
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
@@ -14,6 +14,8 @@ urlpatterns = [
     # User authentication
     path("users/login/", TokenObtainPairView.as_view(), name="user-login"),
     path("users/refresh_token/", TokenRefreshView.as_view(), name="refresh-token"),
+    # Products
+    path("products/", include("products.urls", namespace="products")),
 ]
 
 if settings.DEBUG:

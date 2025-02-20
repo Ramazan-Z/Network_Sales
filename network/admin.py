@@ -19,7 +19,7 @@ class ContactDataAdmin(admin.ModelAdmin):
 class NetworkElementAdmin(admin.ModelAdmin):
     """Регистрация модели сетевого звена в админке"""
 
-    list_display = ("name", "level", "supplier_", "customers_", "debt")
+    list_display = ("name", "level", "supplier_", "customers_", "products", "debt")
     search_fields = ("name",)
     list_filter = ("contact_data__city", "supplier")
     actions = ("clear_debt",)
@@ -54,6 +54,13 @@ class NetworkElementAdmin(admin.ModelAdmin):
         """Ссылка на потребителей"""
         if network_element.customers.exists():
             link = reverse("admin:network_networkelement_changelist") + f"?supplier__id__exact={network_element.pk}"
+            return format_html("<a href='{}'>{}</a>", link, "open")
+
+    @admin.display(description="Products")
+    def products(self, network_element):
+        """Ссылка на товары"""
+        if network_element.products.exists():
+            link = reverse("admin:products_product_changelist") + f"?supplier__id__exact={network_element.pk}"
             return format_html("<a href='{}'>{}</a>", link, "open")
 
     @admin.action(description="Clear the debt owed to the supplier by the selected objects.")
