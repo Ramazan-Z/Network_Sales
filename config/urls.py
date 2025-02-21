@@ -16,6 +16,8 @@ urlpatterns = [
     path("users/refresh_token/", TokenRefreshView.as_view(), name="refresh-token"),
     # Products
     path("products/", include("products.urls", namespace="products")),
+    # Network
+    path("network/", include("network.urls", namespace="network")),
 ]
 
 if settings.DEBUG:
