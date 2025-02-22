@@ -1,0 +1,178 @@
+[
+{
+    "model": "network.contactdata",
+    "pk": 1,
+    "fields": {
+        "email": "sales@kristallit.ru",
+        "country": "Россия",
+        "city": "Серпухов",
+        "street": "пер. Центральный",
+        "house_number": "30"
+    }
+},
+{
+    "model": "network.contactdata",
+    "pk": 2,
+    "fields": {
+        "email": "info@dtvs.ru",
+        "country": "Россия",
+        "city": "Гусев",
+        "street": "Зворыкина",
+        "house_number": "6"
+    }
+},
+{
+    "model": "network.contactdata",
+    "pk": 3,
+    "fields": {
+        "email": "info@lg.com",
+        "country": "Россия",
+        "city": "п. Дорохово",
+        "street": "Минское шоссе",
+        "house_number": "86а"
+    }
+},
+{
+    "model": "network.contactdata",
+    "pk": 4,
+    "fields": {
+        "email": "info@nscar.ru",
+        "country": "Россия",
+        "city": "Москва",
+        "street": "Рубцовская набережная",
+        "house_number": "3"
+    }
+},
+{
+    "model": "network.contactdata",
+    "pk": 5,
+    "fields": {
+        "email": "info@marvel.ru",
+        "country": "Россия",
+        "city": "Москва",
+        "street": "Прибрежная",
+        "house_number": "8"
+    }
+},
+{
+    "model": "network.contactdata",
+    "pk": 6,
+    "fields": {
+        "email": "info@mbtrade.pro",
+        "country": "Китай",
+        "city": "Гонконг",
+        "street": "Canton Road",
+        "house_number": "29"
+    }
+},
+{
+    "model": "network.contactdata",
+    "pk": 7,
+    "fields": {
+        "email": "info@techprom.ru",
+        "country": "Россия",
+        "city": "Воткинск",
+        "street": "1 Мая",
+        "house_number": "102"
+    }
+},
+{
+    "model": "network.contactdata",
+    "pk": 8,
+    "fields": {
+        "email": "info@dns.ru",
+        "country": "Россия",
+        "city": "Ижевск",
+        "street": "9 января",
+        "house_number": "58"
+    }
+},
+{
+    "model": "network.networkelement",
+    "pk": 1,
+    "fields": {
+        "name": "Кристалит",
+        "contact_data": 1,
+        "supplier": 6,
+        "debt": "0.00",
+        "created_at": "2025-02-21T12:42:18.000Z"
+    }
+},
+{
+    "model": "network.networkelement",
+    "pk": 2,
+    "fields": {
+        "name": "Цифровые телевизионные системы",
+        "contact_data": 2,
+        "supplier": 1,
+        "debt": "50000.00",
+        "created_at": "2025-02-21T12:55:20.011Z"
+    }
+},
+{
+    "model": "network.networkelement",
+    "pk": 3,
+    "fields": {
+        "name": "LG Electronics",
+        "contact_data": 3,
+        "supplier": 1,
+        "debt": "200000.00",
+        "created_at": "2025-02-21T13:08:02.871Z"
+    }
+},
+{
+    "model": "network.networkelement",
+    "pk": 4,
+    "fields": {
+        "name": "NSCAR",
+        "contact_data": 4,
+        "supplier": 5,
+        "debt": "100000.00",
+        "created_at": "2025-02-21T13:36:03.196Z"
+    }
+},
+{
+    "model": "network.networkelement",
+    "pk": 5,
+    "fields": {
+        "name": "Марвел",
+        "contact_data": 5,
+        "supplier": null,
+        "debt": "0.00",
+        "created_at": "2025-02-22T03:48:39.293Z"
+    }
+},
+{
+    "model": "network.networkelement",
+    "pk": 6,
+    "fields": {
+        "name": "MB TRADE",
+        "contact_data": 6,
+        "supplier": null,
+        "debt": "0.00",
+        "created_at": "2025-02-22T03:59:52.677Z"
+    }
+},
+{
+    "model": "network.networkelement",
+    "pk": 7,
+    "fields": {
+        "name": "ТехПром",
+        "contact_data": 7,
+        "supplier": 2,
+        "debt": "300000.00",
+        "created_at": "2025-02-22T04:16:39.838Z"
+    }
+},
+{
+    "model": "network.networkelement",
+    "pk": 8,
+    "fields": {
+        "name": "DNS",
+        "contact_data": 8,
+        "supplier": 3,
+        "debt": "50000.00",
+        "created_at": "2025-02-22T04:19:43.097Z"
+    }
+}
+]
