@@ -1,0 +1,122 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "name": "Печатные платы",
+        "model": "IPC-A-600F",
+        "release_date": "2025-02-21T12:48:01.080Z",
+        "supplier": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "name": "Цифровая приставка",
+        "model": "GS B621L",
+        "release_date": "2025-02-21T13:01:38.771Z",
+        "supplier": 7
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "name": "Стиральная машина узкая",
+        "model": "LG F2J6NNFW",
+        "release_date": "2025-02-21T13:10:17.561Z",
+        "supplier": 8
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "name": "Пылесос беспроводной",
+        "model": "LG A9T-ULTRA2",
+        "release_date": "2025-02-21T13:12:46.824Z",
+        "supplier": 8
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "name": "Микроволновая печь",
+        "model": "LG-MH6596CIT",
+        "release_date": "2025-02-21T13:15:08.165Z",
+        "supplier": 8
+    }
+},
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "name": "Автомобильная камера",
+        "model": "A305 (RCA-DC)",
+        "release_date": "2025-02-22T05:11:16.542Z",
+        "supplier": 4
+    }
+},
+{
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "name": "Автомобильный видеорегистратор",
+        "model": "NSCAR 401 SD (4 канала, 720Р)",
+        "release_date": "2025-02-22T05:13:05.026Z",
+        "supplier": 4
+    }
+},
+{
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "name": "Автомобильный монитор",
+        "model": "NSCAR МР 803 (4,3\")",
+        "release_date": "2025-02-22T05:15:15.860Z",
+        "supplier": 4
+    }
+},
+{
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+        "name": "Электронные компоненты",
+        "model": "Микропроцессор",
+        "release_date": "2025-02-22T05:29:52.653Z",
+        "supplier": 6
+    }
+},
+{
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+        "name": "ПО для электронных устройств",
+        "model": "AVR, PIC, SM",
+        "release_date": "2025-02-22T05:41:02.874Z",
+        "supplier": 5
+    }
+},
+{
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+        "name": "Бытовыя техника",
+        "model": "Под заказ",
+        "release_date": "2025-02-22T06:10:19.817Z",
+        "supplier": 3
+    }
+},
+{
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+        "name": "Электроника",
+        "model": "Производство",
+        "release_date": "2025-02-22T06:12:12.808Z",
+        "supplier": 2
+    }
+}
+]
